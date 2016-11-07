@@ -17,8 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+
+    
     // 测试
     [self NSArray_Test_InstanceArray];
+    
+    UITextField *textField = [[UITextField alloc]initWithFrame:CGRectMake(100, 100, 100, 40)];
+    textField.placeholder = @"hello";
+    textField.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:textField];
 }
 
 //=================================================================
