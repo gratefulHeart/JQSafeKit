@@ -1,3 +1,13 @@
+# JQSafeKit
+
+[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)](https://github.com/XiaoHanGe/JQSafeKit)
+[![Version](https://img.shields.io/cocoapods/v/JQSafeKit.svg?style=flat)](http://cocoapods.org/pods/JQSafeKit)
+[![Coveralls branch](https://img.shields.io/coveralls/jekyll/jekyll/master.svg)](https://github.com/XiaoHanGe/JQSafeKit)
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/XiaoHanGe/JQSafeKit)
+[![Platform](https://img.shields.io/badge/platform-ios-brightgreen.svg)](http://cocoapods.org/pods/JQSafeKit)
+[![Apps Using](https://img.shields.io/badge/Apps%20Using-%3E%20100-blue.svg)](https://github.com/XiaoHanGe/JQSafeKit)
+[![CocoaPods](https://img.shields.io/cocoapods/dm/JQSafeKit.svg)](http://cocoapods.org/pods/JQSafeKit)
+
 前言
 ===
 一个已经发布到AppStore上的App，最忌讳的就是崩溃问题。为什么在开发阶段或者测试阶段都不会崩溃，而发布到AppStore上就崩溃了呢？究其根源，最主要的原因就是数据的错乱。特别是 服务器返回数据的错乱，将严重影响到我们的App。
