@@ -6,7 +6,7 @@
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/XiaoHanGe/JQSafeKit)
 [![Platform](https://img.shields.io/badge/platform-ios-brightgreen.svg)](http://cocoapods.org/pods/JQSafeKit)
 [![Apps Using](https://img.shields.io/badge/Apps%20Using-%3E%20100-blue.svg)](https://github.com/XiaoHanGe/JQSafeKit)
-[![CocoaPods](https://img.shields.io/cocoapods/dm/JQSafeKit.svg)](http://cocoapods.org/pods/JQSafeKit)
+[![CocoaPods](https://img.shields.io/cocoapods/dm/AFNetWorking.svg)](http://cocoapods.org/pods/JQSafeKit)
 
 前言
 ===
