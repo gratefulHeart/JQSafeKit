@@ -206,6 +206,82 @@
     NSRange range = NSMakeRange(0, 1000);
     [strM deleteCharactersInRange:range];
 }
+//=================================================================
+//                      NSAttributedString_Test
+//=================================================================
+#pragma mark - NSAttributedString_Test
+
+- (void)NSAttributedString_Test_InitWithString {
+    NSString *string = nil;
+    NSAttributedString *attributeStr = [[NSAttributedString alloc] initWithString:string];
+    NSLog(@"%@",attributeStr);
+}
+
+- (void)NSAttributedString_Test_InitWithAttributedString {
+    NSAttributedString *nilAttributedString = nil;
+    NSAttributedString *attributedString = [[NSAttributedString alloc] initWithAttributedString:nilAttributedString];
+    NSLog(@"%@",attributedString);
+    
+    
+}
+
+- (void)NSAttributedString_Test_InitWithStringAttributes {
+    NSDictionary *attributes = @{
+                                 NSForegroundColorAttributeName : [UIColor redColor]
+                                 };
+    NSString *nilString = nil;
+    NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:nilString attributes:attributes];
+    NSLog(@"%@",attributedString);
+}
+
+//=================================================================
+//                   NSMutableAttributedString_Test
+//=================================================================
+- (void)NSMutableAttributedString_Test_InitWithString {
+    
+    NSString *nilString = nil;
+    NSMutableAttributedString *attrStrM = [[NSMutableAttributedString alloc] initWithString:nilString];
+    NSLog(@"%@",attrStrM);
+}
+
+- (void)NSMutableAttributedString_Test_InitWithStringAttributes {
+    
+    NSDictionary *attributes = @{
+                                 NSForegroundColorAttributeName : [UIColor redColor]
+                                 };
+    NSString *nilString = nil;
+    NSMutableAttributedString *attrStrM = [[NSMutableAttributedString alloc] initWithString:nilString attributes:attributes];
+    NSLog(@"%@",attrStrM);
+}
+
+
+
+//=================================================================
+//                            KVC
+//=================================================================
+- (void)KVC_SetValueForKey {
+    //创建一个任意的对象
+    UITableView *anyObject = [UITableView new];
+    [anyObject setValue:self forKey:@"JQSafeKit"];
+    
+}
+
+- (void)KVC_SetValueforKeyPath {
+    UITableView *anyObject = [UITableView new];
+    [anyObject setValue:self forKey:@"JQSafeKit"];
+}
+
+
+- (void)KVC_SetValuesForKeysWithDictionary {
+    //创建一个任意的对象
+    UITableView *anyObject = [UITableView new];
+    NSDictionary *dictionary = @{
+                                 @"name" : @"HaRi"
+                                 };
+    
+    [anyObject setValuesForKeysWithDictionary:dictionary];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
