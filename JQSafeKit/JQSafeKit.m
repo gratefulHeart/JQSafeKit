@@ -11,10 +11,14 @@
 // category
 #import "NSArray+JQSafeKit.h"
 #import "NSString+JQSafeKit.h"
+#import "NSAttributedString+JQSafeKit.h"
 #import "NSDictionary+JQSafeKit.h"
+
 #import "NSMutableArray+JQSafeKit.h"
 #import "NSMutableString+JQSafeKit.h"
 #import "NSMutableDictionary+JQSafeKit.h"
+#import "NSMutableAttributedString+JQSafeKit.h"
+#import "NSObject+JQSafeKit.h"
 
 #define JQSafeKitSeparator         @"======================================================"
 #define JQSafeKitSeparatorWithFlag @"===================JQSafeKit Log====================="
@@ -45,6 +49,10 @@
         [NSString JQSafeKitExchangeMethod];
         [NSMutableString JQSafeKitExchangeMethod];
         
+        [NSAttributedString JQSafeKitExchangeMethod];
+        [NSMutableAttributedString JQSafeKitExchangeMethod];
+        
+        [NSObject JQSafeKitExchangeMethod];
     });
 }
 

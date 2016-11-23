@@ -26,6 +26,9 @@
 		470475E91DBCB3F9003B06A5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 470475E51DBCB3F9003B06A5 /* 2.png */; };
 		470475EA1DBCB3F9003B06A5 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 470475E61DBCB3F9003B06A5 /* 3.png */; };
 		470475EB1DBCB3F9003B06A5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 470475E71DBCB3F9003B06A5 /* 4.png */; };
+		AB28A0551DE524CF00677C31 /* NSAttributedString+JQSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28A0541DE524CF00677C31 /* NSAttributedString+JQSafeKit.m */; };
+		AB28A0581DE524E800677C31 /* NSMutableAttributedString+JQSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28A0571DE524E800677C31 /* NSMutableAttributedString+JQSafeKit.m */; };
+		AB28A05B1DE5250200677C31 /* NSObject+JQSafeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28A05A1DE5250200677C31 /* NSObject+JQSafeKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,12 @@
 		470475E51DBCB3F9003B06A5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		470475E61DBCB3F9003B06A5 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		470475E71DBCB3F9003B06A5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		AB28A0531DE524CF00677C31 /* NSAttributedString+JQSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+JQSafeKit.h"; sourceTree = "<group>"; };
+		AB28A0541DE524CF00677C31 /* NSAttributedString+JQSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+JQSafeKit.m"; sourceTree = "<group>"; };
+		AB28A0561DE524E800677C31 /* NSMutableAttributedString+JQSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+JQSafeKit.h"; sourceTree = "<group>"; };
+		AB28A0571DE524E800677C31 /* NSMutableAttributedString+JQSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+JQSafeKit.m"; sourceTree = "<group>"; };
+		AB28A0591DE5250200677C31 /* NSObject+JQSafeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JQSafeKit.h"; sourceTree = "<group>"; };
+		AB28A05A1DE5250200677C31 /* NSObject+JQSafeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JQSafeKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +197,12 @@
 				470475C31DBC57B7003B06A5 /* NSMutableString+JQSafeKit.m */,
 				470475C41DBC57B7003B06A5 /* NSString+JQSafeKit.h */,
 				470475C51DBC57B7003B06A5 /* NSString+JQSafeKit.m */,
+				AB28A0531DE524CF00677C31 /* NSAttributedString+JQSafeKit.h */,
+				AB28A0541DE524CF00677C31 /* NSAttributedString+JQSafeKit.m */,
+				AB28A0561DE524E800677C31 /* NSMutableAttributedString+JQSafeKit.h */,
+				AB28A0571DE524E800677C31 /* NSMutableAttributedString+JQSafeKit.m */,
+				AB28A0591DE5250200677C31 /* NSObject+JQSafeKit.h */,
+				AB28A05A1DE5250200677C31 /* NSObject+JQSafeKit.m */,
 			);
 			path = JQSafeKit;
 			sourceTree = "<group>";
@@ -345,9 +360,12 @@
 			files = (
 				470475CA1DBC57B7003B06A5 /* NSMutableDictionary+JQSafeKit.m in Sources */,
 				470475C71DBC57B7003B06A5 /* NSArray+JQSafeKit.m in Sources */,
+				AB28A0551DE524CF00677C31 /* NSAttributedString+JQSafeKit.m in Sources */,
+				AB28A0581DE524E800677C31 /* NSMutableAttributedString+JQSafeKit.m in Sources */,
 				470475CC1DBC57B7003B06A5 /* NSString+JQSafeKit.m in Sources */,
 				470475CB1DBC57B7003B06A5 /* NSMutableString+JQSafeKit.m in Sources */,
 				470475C61DBC57B7003B06A5 /* JQSafeKit.m in Sources */,
+				AB28A05B1DE5250200677C31 /* NSObject+JQSafeKit.m in Sources */,
 				470475761DBC5557003B06A5 /* ViewController.m in Sources */,
 				470475731DBC5557003B06A5 /* AppDelegate.m in Sources */,
 				470475701DBC5557003B06A5 /* main.m in Sources */,
