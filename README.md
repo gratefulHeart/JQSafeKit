@@ -135,8 +135,6 @@ pod  “JQSafeKit”
 - `1. - (void)setObject:(id)anObject forKey:(id<NSCopying>)aKey`
 - `2. - (void)removeObjectForKey:(id)aKey`
 
-
-
 ---
 - NSString
 - `1. - (unichar)characterAtIndex:(NSUInteger)index`
@@ -155,12 +153,32 @@ pod  “JQSafeKit”
 - `3. - (void)insertString:(NSString *)aString atIndex:(NSUInteger)loc`
 - `4. - (void)deleteCharactersInRange:(NSRange)range`
 
+---
 
+- NSAttributedString
+- `1.- (instancetype)initWithString:(NSString *)str`
+- `2.- (instancetype)initWithAttributedString:(NSAttributedString *)attrStr`
+- `3.- (instancetype)initWithString:(NSString *)str attributes:(NSDictionary<NSString *,id> *)attrs`
+
+---
+
+- NSMutableAttributedString
+- `1.- (instancetype)initWithString:(NSString *)strutableString是继承于NSString,所以这里和NSString有些同样的方法就不重复写了`
+- `2.- (instancetype)initWithString:(NSString *)str attributes:(NSDictionary<NSString *,id> *)attrs`
+
+---
+
+- KVC
+- `1.- (void)setValue:(id)value forKey:(NSString *)key`
+- `2.- (void)setValue:(id)value forKeyPath:(NSString *)keyPath`
+- `3.- (void)setValue:(id)value forUndefinedKey:(NSString *)key //这个方法一般用来重写，不会主动调用`
+- `4.- (void)setValuesForKeysWithDictionary:(NSDictionary<NSString *,id> *)keyedValue`
 
 ---
 
 
-##[About me -- CSDN](http://blog.csdn.net/qq_31810357)
+##维护成员：[小韩哥](http://blog.csdn.net/qq_31810357)    [小磊](https://github.com/986138497)
+
 ##iOS开发者交流群：446310206
 
 

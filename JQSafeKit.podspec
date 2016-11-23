@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JQSafeKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "This framework can effective avoid crash by potential error code and also can avoid crash and note you that where cause crash of JQSafeKit"
   s.homepage     = "https://github.com/XiaoHanGe/JQSafeKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
