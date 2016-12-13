@@ -177,9 +177,9 @@ pod  “JQSafeKit”
 ---
 
 
-##维护成员：[小韩哥](http://blog.csdn.net/qq_31810357)    [小磊](https://github.com/986138497)
+##维护成员：[小韩哥](http://blog.csdn.net/qq_31810357)     [小磊](https://github.com/986138497)
 
-##iOS开发者交流群：446310206
+##手机加iOS开发者交流QQ群：446310206
 
 
 
